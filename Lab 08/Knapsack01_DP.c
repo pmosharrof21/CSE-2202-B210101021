@@ -21,7 +21,6 @@ int main() {
     printf("Enter knapsack capacity: ");
     scanf("%d", &W);
 
-    // Create DP table: dp[i][w] = max value using first i items and capacity w
     int dp[n + 1][W + 1];
 
 
